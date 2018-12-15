@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = SnoopDogg::VERSION
   s.authors     = ["Kevin J. Storberg"]
   s.email       = ["kevin@storberg.net"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of SnoopDogg."
-  s.description = "TODO: Description of SnoopDogg."
+  s.homepage    = "ooftypop.com"
+  s.summary     = "A nicer way to see models"
+  s.description = "A nicer way to see models"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]

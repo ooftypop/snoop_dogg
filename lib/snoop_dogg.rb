@@ -43,3 +43,5 @@ module SnoopDogg
     end
   end
 end
+
+ApplicationRecord.send(:include, SnoopDogg)
