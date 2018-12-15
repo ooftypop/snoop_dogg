@@ -44,4 +44,4 @@ module SnoopDogg
   end
 end
 
-ApplicationRecord.send(:include, SnoopDogg)
+ActiveRecord::Base.send(:include, SnoopDogg)
