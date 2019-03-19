@@ -8,15 +8,15 @@ Gem::Specification.new do |s|
   s.name        = "snoop_dogg"
   s.version     = SnoopDogg::VERSION
   s.authors     = ["Kevin J. Storberg"]
-  s.email       = ["kevin@storberg.net"]
+  s.email       = ["kevin@ooftypop.com"]
   s.homepage    = "https://github.com/ooftypop/snoop_dogg"
-  s.summary     = "A nicer way to see models"
-  s.description = "A nicer way to see models"
+  s.summary     = "A nicer way to see Models"
+  s.description = "A nicer way to see Models"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", "~> 5.2.1"
+  s.add_dependency "rails", ">= 5.1.4"
 
   s.add_development_dependency "sqlite3"
 end
